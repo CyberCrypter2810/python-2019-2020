@@ -3,3 +3,6 @@
 import math
 
 x = float(input("Enter a Number: "))
+y = x - int(x)
+
+print(math.fabs(y))
