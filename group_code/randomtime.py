@@ -28,7 +28,7 @@ def time():
 def Random():
 	filename = time() #create the file and name it
 	filename = filename + ".txt"
-	f = open(filename, "a") #open the file (a represents the input of data to the end of the file)
+	f = open(filename, "a") #open the file ("a" represents the input of data to the end of the file)
 	
 	for i in range(0,65536):
 		n = random.randint(65, 65+25)
